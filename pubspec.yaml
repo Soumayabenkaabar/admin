@@ -1,0 +1,24 @@
+name: my_app
+description: A new Flutter project.
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.4.0-190.1.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  adaptive_components: any
+  intl: any
+  file_picker: any
+  firebase_core: any
+  firebase_auth: any
+  firebase_storage: any
+  firebase_messaging: any
+  shared_preferences: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - img/
